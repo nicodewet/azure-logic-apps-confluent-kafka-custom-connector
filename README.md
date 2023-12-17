@@ -9,7 +9,7 @@ a Kafka topic on Confluent Cloud.
 
 At the time of writing, Dec '23, Azure Logic Apps only supports [Open API 2.0 specifications](https://swagger.io/specification/v2/), and the Kafka REST Proxy specification is an [Open API 3.0 specification](https://github.com/confluentinc/kafka-rest/blob/master/api/v3/openapi.yaml).
 
-This step has already been done for you, you can simply download the [REST_Admin_API-Swagger20.json file](API_specifications/REST_Admin_API-Swagger20.json)
+This step has already been done for you, you can simply download the [specification](API_specifications/REST_Admin_API-Swagger20.json)
 
 I created this file as follows:
 
