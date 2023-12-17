@@ -15,7 +15,7 @@ I created this file as follows:
 
 1. Given that we only want to use two methods to publish Kafka messages/events produce a [smaller OpenAPI specification] from a [local copy](API_specifications/openapi.yaml) of the [source specification](https://github.com/confluentinc/kafka-rest/blob/master/api/v3/openapi.yaml).
 
-2. Use [APIMatic](https://www.apimatic.io/) to auto downgrade from the much smaller Open API 3.0 specification that I produced by hand to what is now an [Open API 2.0 specification](API_specifications/REST Admin API-Swagger20.json).
+2. Use [APIMatic](https://www.apimatic.io/) to auto downgrade from [the much smaller Open API 3.0 specification that I produced by hand](API_Specifications/kafka_rest_produce_only_openapi_3.yaml) to what is now an [Open API 2.0 specification](API_specifications/REST Admin API-Swagger20.json).
 
 ### Create the custom connector
 
