@@ -9,13 +9,13 @@ a Kafka topic on Confluent Cloud.
 
 At the time of writing, Dec '23, Azure Logic Apps only supports [Open API 2.0 specifications](https://swagger.io/specification/v2/), and the Kafka REST Proxy specification is an [Open API 3.0 specification](https://github.com/confluentinc/kafka-rest/blob/master/api/v3/openapi.yaml).
 
-This step has already been done for you, you can simply download the [specification](API_specifications/REST_Admin_API-Swagger20.json).
+This step has already been done for you, you can simply download the [specification](API_specifications/rest_admin_api_swagger20.json).
 
 I created this file as follows:
 
 1. Given that we only want to use two methods to publish Kafka messages/events produce a [smaller OpenAPI specification] from a [local copy](API_specifications/openapi.yaml) of the [source specification](https://github.com/confluentinc/kafka-rest/blob/master/api/v3/openapi.yaml).
 
-2. Use [APIMatic](https://www.apimatic.io/) to auto downgrade from [the much smaller Open API 3.0 specification that I produced by hand](API_specifications/kafka_rest_produce_only_openapi_3.yaml) to what is now an [Open API 2.0 specification](API_specifications/REST_Admin_API-Swagger20.json).
+2. Use [APIMatic](https://www.apimatic.io/) to auto downgrade from [the much smaller Open API 3.0 specification that I produced by hand](API_specifications/kafka_rest_produce_only_openapi_3.yaml) to what is now an [Open API 2.0 specification](API_specifications/rest_admin_api_swagger20.json).
 
 ### Create the custom connector
 
