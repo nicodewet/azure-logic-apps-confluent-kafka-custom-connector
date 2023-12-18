@@ -23,6 +23,8 @@ Here you'll follow the official guide on how to [Create a custom connector from 
 
 ### Use the custom connector
 
-TODO.
+Create a consumption based logic app with an HTTP trigger and add a Kafka publish step using the body of the HTTP POST method.
+
+As a prerequisite you should create a basic authentication API key and secret on Confluent Cloud and always follow this golden rule which is to always experiment and do dry runs on your local using cURL.
 
 
