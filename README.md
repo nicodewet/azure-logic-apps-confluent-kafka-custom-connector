@@ -27,4 +27,8 @@ Create a consumption based logic app with an HTTP trigger and add a Kafka publis
 
 As a prerequisite you should create a basic authentication API key and secret on Confluent Cloud and always follow this golden rule which is to always experiment and do dry runs on your local using cURL.
 
+## The Steps - More Detail
+
+ Let me know if you want more and I'll happily add it. Images, videos etc.
+
 
