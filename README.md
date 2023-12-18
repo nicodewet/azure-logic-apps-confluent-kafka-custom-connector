@@ -29,6 +29,6 @@ As a prerequisite you should create a basic authentication API key and secret on
 
 ## The Steps - More Detail
 
- Let me know if you want more and I'll happily add it. Images, videos etc.
+ Let me know (add an Issue) if you want more and I'll happily add it. Images, videos etc.
 
 
